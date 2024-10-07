@@ -48,7 +48,7 @@ configure_file(${CMAKE_CURRENT_SOURCE_DIR}/udisks2-qt5.pc.in
 )
 
 install(TARGETS udisks2-qt5 DESTINATION ${CMAKE_INSTALL_LIBDIR})
-install(FILES ${CMAKE_CURRENT_BINARY_DIR}/udisks-qt5.pc
+install(FILES ${CMAKE_CURRENT_BINARY_DIR}/udisks2-qt5.pc
 	DESTINATION ${CMAKE_INSTALL_LIBDIR}/pkgconfig
 )
 install(FILES ${udisksqt_HEADERS}
