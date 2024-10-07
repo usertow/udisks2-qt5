@@ -15,7 +15,7 @@
 $ cd /path/to/your/source/code
 $ mkdir build
 $ cd build
-$ qmake ../
+$ cmake ../
 $ make
 $ sudo make install
 ```
