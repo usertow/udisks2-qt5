@@ -9,7 +9,7 @@ Copyright: None
 License: CC0-1.0
 
 # gitignore
-Files: .clog.toml .gitignore org.freedesktop.UDisks2.ObjectManager.xml CHANGELOG.md
+Files: .clog.toml .gitignore CHANGELOG.md src/org.freedesktop.UDisks2.ObjectManager.xml 
 Copyright: None
 License: CC0-1.0
 
@@ -19,7 +19,7 @@ Copyright: None
 License: CC0-1.0
 
 # Project file
-Files: *.pro *.pri
+Files:  *CMakeLists.txt config.h.in .tx/*
 Copyright: None
 License: CC0-1.0
 
@@ -28,7 +28,17 @@ Files: README.md README.zh_CN.md CHANGELOG.md
 Copyright: UnionTech Software Technology Co., Ltd.
 License: CC-BY-4.0
 
-# org.freedesktop.UDisks2.xml
-Files: org.freedesktop.UDisks2.xml
+# src/org.freedesktop.UDisks2.xml
+Files: src/org.freedesktop.UDisks2.xml
 Copyright: 2011 David Zeuthen
 License: LGPL-2.0-or-later
+
+# src/modules 
+Files: src/modules/*
+Copyright: 2024 usertow
+License: LGPL-2.0-or-later
+
+# src
+Files: src/*
+Copyright: UnionTech Software Technology Co., Ltd.
+License: GPL-3.0-or-later
